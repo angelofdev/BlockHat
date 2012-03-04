@@ -1,0 +1,16 @@
+name: BlockHat
+author: nmc94
+main: me.nmc94.BlockHat.BlockHat
+version: 1.8
+commands:
+  hat:
+    description: Puts blocks on players heads
+    usage: |
+           /<command> [[group <group>|<player>] <block>|ver|help]
+           Example: /<command> ver- Prints the version.
+           Example: /<command> help- Prints the help.
+           Example: /<command> - Puts the held block on your head.
+           Example: /<command> 1 - Puts the block with id 1 (stone) on your head.
+           Example: /<command> nmc94 sand - Puts sand on nmc94's head.
+           Example: /<command> group admin TnT - Puts tnt on all the players in the admin group heads.
+           
