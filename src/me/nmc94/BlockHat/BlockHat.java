@@ -247,7 +247,7 @@ public class BlockHat extends JavaPlugin
 			inv.remove(item);
 		}
 
-		if (helmet.getAmount() > 0)
+		if (helmet != null && helmet.getAmount() > 0)
 		{
 			HashMap<Integer, ItemStack> leftover = inv.addItem(new ItemStack[] { helmet });
 			if (!leftover.isEmpty())

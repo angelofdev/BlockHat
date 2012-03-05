@@ -2,7 +2,7 @@ name: BlockHat
 main: me.nmc94.BlockHat.BlockHat
 version: 1.9
 authors: [nmc94, Olof]
-depend: Vault
+depend: [Vault]
 commands:
   blockhat:
     description: Puts blocks on players heads
